@@ -49,6 +49,10 @@ weighted avg       0.79      0.77      0.76     19043
 **Experiment 2: Class weight**
 
 ```python
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+
+Best parameters found:  {'class_weight': 'balanced', 'max_depth': 20, 'n_estimators': 200}
+
 Test Accuracy: 0.7834
 
               precision    recall  f1-score   support
